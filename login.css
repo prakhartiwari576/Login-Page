@@ -1,40 +1,36 @@
 body{
-	margin: 0;
-	padding: 0;
+	margin: 1;
+	padding: 1;
 	font-family: sans-serif;
-	background-image: url("mountain.jpg");
+	background-image: url("HALO.jpg");
 }
 .box{
-	width: 300px;
-	padding: 40px;
+	margin-top: 115px;
+	width: 450px;
+	padding: 80px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background: black;
-	text-align: center;
+	background-image: 
+	text-align: left;
 }
-.box h1{
-	color: white;
-	text-transform: uppercase;
-	font-weight: 500;
-}
-.box input[type="text"],.box input[type = "password"]{
-	border: 0;
+.box input[type="text"],.box input[type = "Password"]{
+	border: 1;
 	background: none;
 	display: block;
-	margin: 20px auto;
+	margin: 40px auto;
 	text-align: center;
 	border: 2px solid #3498db;
 	padding: 14px 10px;
-	width: 200px;
-	outline: none;
+	width: 100px;
+	outline: doted;
 	color: white;
-	border-radius: 24px;
-	transition: 0.25s;
+	border-radius: 18px;
+	transition: 0.34s;
 }
 .box input[type="text"]:focus,.box input[type = "password"]:focus{
-	width: 280px;
+	width: 200px;
 	border-color: #2ecc71;
 }
 .box input[type = "submit"]{
@@ -45,9 +41,9 @@ body{
 	text-align: center;
 	border: 2px solid #2ecc71;
 	padding: 14px 40px;
-	outline: none;
+	outline: 20;
 	color: white;
-	border-radius: 24px;
+	border-radius: 18px;
 	transition: 0.25s;
 	cursor: pointer;
 }
