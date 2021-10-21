@@ -5,6 +5,7 @@ body{
 	background-image: url("HALO.jpg");
 }
 .box{
+	margin-top: 115px;
 	width: 450px;
 	padding: 80px;
 	position: absolute;
@@ -13,11 +14,6 @@ body{
 	transform: translate(-50%,-50%);
 	background-image: 
 	text-align: left;
-}
-.box h1{
-	color: white;
-	text-transform: uppercase;
-	font-weight: 440;
 }
 .box input[type="text"],.box input[type = "Password"]{
 	border: 1;
